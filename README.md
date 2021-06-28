@@ -1,1 +1,1 @@
-# full-stack-open-2021
+# Full Stack open 2021 course from helsinki.fi
