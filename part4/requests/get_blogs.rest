@@ -1,0 +1,15 @@
+###
+GET http://localhost:3003/api/blogs
+
+###
+PUT http://localhost:3003/api/blogs/60f537f4daf5263bbd1f04a7
+Content-Type: application/json
+
+{
+    "title":"My terrible blog",
+    "author":"simon",
+    "url": "blog.com",
+    "likes": 102
+}
+
+

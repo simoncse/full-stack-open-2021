@@ -1,0 +1,41 @@
+###
+POST http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+    "notes": [],
+    "username": "simon",
+    "name": "Simon Chan",
+    "password": "simnnnnn"
+}
+
+###
+GET http://localhost:3003/api/users
+
+###
+
+POST http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+    "notes": [],
+    "username": "simon23",
+    "name": "Simon Chan",
+    "password": "hdd"
+}
+
+###
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+# Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNpbW9uMjMiLCJpZCI6IjYwZmJiMzFjNTUyNTA2MTRhNDNmMjg1YyIsImlhdCI6MTYyNzEwOTczN30.K_TbCp06b1a5Y1PIOZcrqYUrmkU9RNXSM7Hvj2WL16o
+
+{
+    "title":"delete blog",
+    "author":"Simon",
+    "url": "simon-blog.com/d",
+    "likes": 22
+}
+
+###
+DELETE http://localhost:3003/api/blogs/60fbc2d2be2b921d81e4cc5d
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVC9.eyJ1c2VybmFtZSI6Im1pYTIzIiwiaWQiOiI2MGZiYWNkMjU2YWJmNjEwZGJkNjhkMjkiLCJpYXQiOjE2MjcxMTIxMjh9.Uht4Xb41aKsHTosygss8cafhTCTALqgHl-jo27VMlM0
